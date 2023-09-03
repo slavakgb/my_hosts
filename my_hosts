@@ -89,7 +89,7 @@
 # 禁用后无法加载手机管家App内的图标
 #0.0.0.0 keybag.id.mi.com
 
-#??? 云控?
+# 云控
 0.0.0.0 qsb.browser.miui.srv
 0.0.0.0 rom.pt.miui.srv
 0.0.0.0 ccc.sys.miui.com
