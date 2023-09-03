@@ -1,0 +1,151 @@
+#此处主要屏蔽小米云扫描组件
+0.0.0.0 log.avlyun.sec.intl.miui.com
+0.0.0.0 update.avlyun.sec.miui.com
+0.0.0.0 ixav-cse.avlyun.com
+0.0.0.0 logupdate.avlyun.sec.miui.com
+0.0.0.0 miui-fxcse.avlyun.com
+0.0.0.0 sdkconf.avlyun.com
+0.0.0.0 sdkconf.avlyun.com
+0.0.0.0 miav-cse.avlyun.com
+0.0.0.0 miav-cse.avlyun.com
+0.0.0.0 api.installer.xiaomi.com
+0.0.0.0 tmfsdk.m.qq.com
+0.0.0.0 a0.app.xiaomi.com
+
+#屏蔽后无法矫正流量，但是也用来下载白名单
+#0.0.0.0 api.sec.miui.com
+#0.0.0.0 adv.sec.miui.com
+#0.0.0.0 xlmc.sec.miui.com
+
+#禁用后将无法云扫描病毒
+0.0.0.0 etl-xlmc-ssl.sandai.net
+0.0.0.0 cn.app.chat.xiaomi.net
+
+#疑似云盘，自行决定
+#0.0.0.0 pdc.micloud.xiaomi.net
+0.0.0.0 a.hl.mi.com
+
+#禁用后可能会导致小米浏览器无法下载APK，因为有垃圾推广安装
+0.0.0.0 idm.api.io.mi.com
+0.0.0.0 api.jr.mi.com
+0.0.0.0 ssl-cdn.static.browser.mi-img.com
+0.0.0.0 flash.sec.miui.com
+
+# MIUI 安装检查
+0.0.0.0 api.installer.xiaomi.com
+
+#OneTrack & Analytics & Ad
+0.0.0.0 tracking.miui.com
+0.0.0.0 data.mistat.xiaomi.com
+0.0.0.0 diagnosis.ad.xiaomi.com
+0.0.0.0 log.ad.xiaomi.com
+0.0.0.0 m.track.ad.xiaomi.com
+0.0.0.0 sdkconfig.ad.xiaomi.com
+
+# 小爱同学
+0.0.0.0 tracker.ai.xiaomi.com
+
+# 好像是小米自己的引擎 还在内测
+0.0.0.0 mazu.sec.miui.com
+
+# avl
+0.0.0.0 miui-fxcse.avlyun.com
+0.0.0.0 sdkconf.avlyun.com
+0.0.0.0 sdkconf.avlyun.com
+0.0.0.0 miav-cse.avlyun.com
+0.0.0.0 update.avlyun.sec.miui.com
+0.0.0.0 ixav-cse.avlyun.com
+0.0.0.0 logupdate.avlyun.sec.miui.com
+
+# 流量更新、病毒白名单
+0.0.0.0 api.sec.miui.com
+
+# 禁用后无法开启部分权限
+#0.0.0.0 srv.sec.miui.com
+
+#权限云控 好像只针对部分机型？
+0.0.0.0 auth.be.sec.miui.com
+
+#反诈
+0.0.0.0 flash.sec.miui.com
+
+#快应用
+0.0.0.0 api.hybrid.xiaomi.com
+
+#浏览器 热点下滑等
+0.0.0.0 o2o.api.xiaomi.com
+0.0.0.0 api.browser.miui.com
+0.0.0.0 ssl-cdn.static.browser.mi-img.com
+0.0.0.0 security.browser.miui.com
+0.0.0.0 hot.browser.miui.com
+0.0.0.0 r.browser.miui.com
+0.0.0.0 hd.browser.miui.com
+0.0.0.0 c3-cache.browser.miui.com
+0.0.0.0 api-ipv4.browser.miui.com
+
+# 系统应用检查更新 e.g 下载管理
+0.0.0.0 api.developer.xiaomi.com
+
+# 禁用后无法加载手机管家App内的图标
+#0.0.0.0 keybag.id.mi.com
+
+#??? 云控?
+0.0.0.0 qsb.browser.miui.srv
+0.0.0.0 rom.pt.miui.srv
+0.0.0.0 ccc.sys.miui.com
+0.0.0.0 jupiter.sys.miui.com
+0.0.0.0 metok.sys.miui.com
+
+# 其他系统应用的垃圾sdk
+# qq扫描 bugly 阅读 快应用等api
+# 可能会影响部分功能 
+0.0.0.0 tmfsdk.m.qq.com
+0.0.0.0 tmfsdk4.m.qq.com
+0.0.0.0 tbm.snssdk.com
+0.0.0.0 othstr.beacon.qq.com
+0.0.0.0 tools.3g.qq.com
+0.0.0.0 tmfsdktcp.m.qq.com
+0.0.0.0 h.trace.qq.com
+0.0.0.0 hub5pn.wap.sandai.net
+0.0.0.0 tpstelemetry.tencent.com
+0.0.0.0 pssn.alicdn.com
+0.0.0.0 tmfsdktcpv4.m.qq.com
+0.0.0.0 tmeadcomm.y.qq.com
+0.0.0.0 tangram.e.qq.com
+0.0.0.0 us.l.qq.com
+0.0.0.0 tdid.m.qq.com
+0.0.0.0 h.trace.qq.com
+0.0.0.0 api.yky.qq.com
+0.0.0.0 sdk.e.qq.com
+0.0.0.0 android.bugly.qq.com
+0.0.0.0 toblog.ctobsnssdk.com
+0.0.0.0 tobapplog.ctobsnssdk.com
+0.0.0.0 cfg.imtt.qq.com
+0.0.0.0 statres.quickapp.cn
+0.0.0.0 qr.quickapp.cn
+0.0.0.0 hybrid.xiaomi.com
+0.0.0.0 s1.irs03.com
+0.0.0.0 up.cm.ksmobile.com
+0.0.0.0 dl.cm.ksmobile.com
+0.0.0.0 dw-online.ksosoft.com
+0.0.0.0 zzhc.vnet.cn
+0.0.0.0 beacon-api.aliyuncs.com
+0.0.0.0 mpush-api.aliyun.com
+0.0.0.0 ug.snssdk.com
+0.0.0.0 t7z.cupid.iqiyi.com
+0.0.0.0 worldwide.sogou.com
+0.0.0.0 www.pangolin-dsp-toutiao.com
+0.0.0.0 master.wap.dphub.sandai.net
+0.0.0.0 hub5u.wap.sandai.net
+0.0.0.0 idx.m.hub.sandai.net
+0.0.0.0 tw13b093.sandai.net
+0.0.0.0 test.ad.xiaomi.com
+0.0.0.0 uploadlog.xlmc.sandai.net
+0.0.0.0 t03-api.xlmc.xunlei.com
+0.0.0.0 pre.api.tw06.xlmc.sandai.net
+0.0.0.0 guid-xldw-ssl.n0808.com
+
+# unknown
+0.0.0.0 hybrid.miui.com
+0.0.0.0 data.sec.miui.com
+0.0.0.0 adinfo.ra1.xlmc.sec.miui.com
