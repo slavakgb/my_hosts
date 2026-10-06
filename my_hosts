@@ -152,3 +152,15 @@
 
 #更新服务器
 0.0.0.0 file.update.mi.com
+
+#MIUI系统更新
+127.0.0.1 cdn-ota.azureedge.net
+127.0.0.1 bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com
+127.0.0.1 bigota.d.miui.com
+127.0.0.1 ultimateota.d.miui.com
+127.0.0.1 cdnorg.d.miui.com
+127.0.0.1 bn.d.miui.com
+127.0.0.1 superota.d.miui.com
+127.0.0.1 update.miui.com
+127.0.0.1 update.intl.miui.com
+127.0.0.1 update.mistat.xiaomi.com
