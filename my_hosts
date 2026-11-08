@@ -65,6 +65,7 @@
 
 #反诈
 127.0.0.1 flash.sec.miui.com
+127.0.0.1 fraud-detection.engine.miui.com
 
 #快应用
 127.0.0.1 api.hybrid.xiaomi.com
